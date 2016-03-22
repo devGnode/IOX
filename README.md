@@ -6,6 +6,7 @@ Server HTML written in PHP
 
 ##Arborescence 
 
-* <b>/io</b>  &rarr; Ressource ServerWeb php
-* <b>/ext</b> &rarr; Ressource php cli
+* <b>/io</b>  &rarr; Ressource php server web
 * <b>/www</b> &rarr; Document contenant les projets HTML
+* <b>/lib</b> &rarr; Ressource php cli
+* <b>/ext</b> &rarr; Ressource php cli
