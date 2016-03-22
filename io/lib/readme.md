@@ -23,7 +23,7 @@
 > return 
 ```php
   // static
-  __http__::headerParse( string Header ); // @return 
+  __http__::parseQuery( string Header ); // @return 
   httpHeaderQuery => ( 
     method   =>  string method,
     uri      => string uri,
@@ -37,6 +37,23 @@
     version  => "HTTP/1.1",
     options  => array("Connection" => "Close", "Cookies" => "foo=bar;bar=foo" ),
     postData => NULL
+  );
+```
+```php
+ __http__::parseResponse( string Header ); // @return 
+  httpHeaderQuery => ( 
+    version    =>  string version,
+    statusCode => string statusCode,
+    msgCode    => string msgCode,
+    options  => array options,
+    content  => string content
+  );
+  httpHeaderQuery => ( 
+    version    => "HTTP/1.1",
+    statusCode => "404",
+    msgCode    => "NOT FOUND",
+    options    => array("Connection" => "Close" ),
+    content    => "<b>Not found</b>"
   );
 ```
 
