@@ -19,9 +19,11 @@ class url{
 		$_;
 		
 		for( $i = 0; $i < $len; $i++ ){
-			$_   = explode( "=", $data[ $i ] );
-			$_FULL[ $_[0] ] = $_[1]; 		
+			if( preg_match( "/^(\w+)\=(.+)$/", $data[ $i ], $_ ) ){
+				$_FULL[ $_[1] ] = $_[2]; 
+			}
 		}
+		
 	return $_FULL;
 	}
 	//
