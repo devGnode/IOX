@@ -10,3 +10,7 @@ Server HTML written in PHP
 * <b>/www</b> &rarr; Document contenant les projets HTML
 * <b>/lib</b> &rarr; Ressource php cli
 * <b>/ext</b> &rarr; Ressource php cli
+
+##Run server
+
+> execute ARunIOX.bat
