@@ -14,5 +14,7 @@ Server HTML written in PHP
 ##Run server
 
 > execute ARunIOX.bat
+
 ou en console
+
 > php -q /io/server.php
