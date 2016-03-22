@@ -1,8 +1,8 @@
 # IOX
 Server HTML written in PHP
  
- IOX est une petit projet non-serieux, qui permet de creer un server
- Web, il ne supporte de pas l'interpretation des codes php.
+ IOX est une petit projet rien de bien sérieux, c'est un sevrer orienté web
+ , il ne supporte le php.
 
 ##Arborescence 
 
