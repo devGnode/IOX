@@ -15,6 +15,13 @@ Server HTML written in PHP
 
 > /io/httpd.conf
 
+* server_ip  
+* remote_port 
+* document_root 
+* time_zone 
+* time_format
+
+
 ## ~Run server~
 
 > click to ARunIOX.bat
