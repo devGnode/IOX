@@ -11,6 +11,10 @@ Server HTML written in PHP
 * <b>/lib</b> &rarr; Ressource php cli
 * <b>/ext</b> &rarr; Ressource php cli
 
+## Configuration
+
+> /io/httpd.conf
+
 ## ~Run server~
 
 > click to ARunIOX.bat
